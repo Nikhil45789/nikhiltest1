@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Test your knowledge with Sporty Quiz">
+<meta name="twitter:description" content="Take this fun and challenging sports quiz to test your knowledge about various sports events and athletes.">
+<meta name="twitter:image" content="https://www.weston-tech.com/wp-content/uploads/2018/06/logo.png">
+<title>Twitter Sharing Example</title>
+<script>
+function openTwitterPopup() {
+    var url = encodeURIComponent("YOUR_URL_HERE");
+    var via = encodeURIComponent("YourTwitterHandle");
+    var text = encodeURIComponent("Test your knowledge Sporty Quiz");
+    var media = encodeURIComponent("https://www.weston-tech.com/wp-content/uploads/2018/06/logo.png");
+    var shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}&via=${via}&media=${media}`;
+    var windowWidth = 600; // Adjust the window width as needed
+    var windowHeight = 400; // Adjust the window height as needed
+    var left = (window.screen.width - windowWidth) / 2;
+    var top = (window.screen.height - windowHeight) / 2;
+    var options = "width=" + windowWidth + ",height=" + windowHeight + ",top=" + top + ",left=" + left;
+    window.open(shareUrl, "Twitter_Share_Window", options);
+}
+</script>
+</head>
+<body>
+
+<button onclick="openTwitterPopup()">Share on Twitter</button>
+
+</body>
+</html>

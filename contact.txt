@@ -1,0 +1,31 @@
+<div class="contact-form-table-wrap">
+<p class="contact-form-title">Send Us A Message</p>
+<div class="name-filled-wrap">
+    <div class="half-filled name-field">
+        <label>Full Name<em>*</em></label>
+        [text* your-name id:your-function-name class:your-name]
+    </div>
+    <div class="full-filled phone-field">
+        <label>Phone<em>*</em></label>
+        [tel* your-phone id:your-function-phone class:your-phone]
+    </div>
+</div>
+<div class="email-filled-wrap">
+    <div class="full-filled email-field">
+        <label>Email<em>*</em></label>
+        [email* your-email id:your-function-email class:your-email]
+    </div>
+  
+</div>
+    <div class="full-filled message-field">
+        <label>Message<em>*</em></label>
+        [textarea* message id:function-message class:message]
+    </div>
+   
+    <div class="full-filled recaptcha ">
+        [recaptcha]
+    </div>
+    <div class="contact-btn btn-common btn-common-bluebtn-wrap smart-btn">
+        [submit "Submit"]
+    </div>
+</div>

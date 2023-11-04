@@ -1,0 +1,26 @@
+```
+/// WEBMASTER SMTP DETAIL
+
+Outgoing Server: mail.webmasterindia.net
+SMTP Port: 465
+id : standard@webmasterindia.net
+pwd : XKj&1NT}pgyz
+testing email
+testingtest463@gmail.com
+
+/// YOURSMART HOST SMTP DETAIL
+SMTP Port: 465
+Outgoing Server: mail.yoursmarthost.net
+id : smtp@yoursmarthost.net 
+pwd : HLs(Qjj5urT9QN*@,PqGu@Jr
+
+```
+
+```
+/// VJB HOST SMTP DETAIL
+SMTP Port: 465
+Outgoing Server: mail.vjbtestwebsites.com
+id : smtp@vjbtestwebsites.com 
+pwd : Smtp@#123$#56
+
+```

@@ -1,0 +1,34 @@
+```
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/2/places_impl.js"></script>
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjrRXZ8ib1RfqNjpLCzsB4XkL4bm_JLWU&amp;libraries=places&amp;callback=getRelevantGoogleReviews">
+</script>
+<script>
+window.getRelevantGoogleReviews = function(){
+     var service = new google.maps.places.PlacesService($('#map').get(0)); // note that it removes the content inside div with tag '#service-helper'
+
+     service.getDetails({
+         placeId: 'ChIJiffyAW6KdkgRnyiXazuo8o4'  // get a placeId using https://developers.google.com/places/web-service/place-id
+        }, function(place, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              var resultcontent = '';
+              for (i=0; i<place.reviews.length; ++i) {
+                //window.alert('Name:' + place.name + '. ID: ' + place.place_id + '. address: ' + place.formatted_address);
+                resultcontent += '<li class="reviews__item">'
+                resultcontent += '<div class="reviews__review-rating reviews__review-rating--' + place.reviews[i].rating +'"></div>';
+                if (!!place.reviews[i].text){
+                  resultcontent += '<div class="reviews__review-comment">' + place.reviews[i].text + '</div>';
+                }
+                resultcontent += '<div class="reviews__review-name-img-wrap"><div class="reviews__review-img"><img src="' + place.reviews[i].profile_photo_url + '"></div>';
+                resultcontent += '<div class="reviews__review-er">' + place.reviews[i].author_name + '</div></div>';
+                resultcontent += '</li>'
+              }
+              $('#google-reviews').append(resultcontent);
+            }
+        });
+    }
+
+  
+</script>
+<div id="map"></div>
+<ul id="google-reviews"></ul>
+```
