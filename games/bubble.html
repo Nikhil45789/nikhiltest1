@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    "use strict";
+
+    //  #region DOM elements
+    document.body.style.margin = "0";
+    document.body.style.height = "100vh";
+    document.body.style.display = "flex";
+    document.body.style.overflow = "hidden";
+    document.body.style.alignItems = "center";
+    document.body.style.justifyContent = "center";
+    document.body.style.backgroundColor = "black";
+
+    const canvas = document.createElement("canvas");
+    canvas.width = 800;
+    canvas.height = 600;
+    canvas.style.backgroundColor = "white";
+    document.body.appendChild(canvas);
+
+    const rotatable = document.createElement("canvas");
+    rotatable.width = 40;
+    rotatable.height = 45;
+    rotatable.style.position = "absolute";
+    rotatable.style.bottom = canvas.getBoundingClientRect().top + "px";
+    document.body.appendChild(rotatable);
+    //  #endregion
+
+    //  #region global variables
+    const ctx = canvas.getContext("2d"); // onscreen
+
+    //  absolute canvas for player that gets rotated
+    const rotatableCtx = rotatable.getContext("2d");
+
+    // offscreen, canvas elements that seldom change
+    const offscreen = new OffscreenCanvas(800, 600);
+    const offscreenCtx = offscreen.getContext("2d");
+    let offscreenSketch;
+
+    let player = {
+        angle: 0,
+        rotate() {
+            // rotate the player around the bullet center
+            rotatable.style.transformOrigin = "20px 45px";
+            rotatable.style.transform = "rotate(" + player.angle + "deg)";
+        }
+    };
+
+    /*
+    key input status is stored in an array so that keyhandler() can
+    use its values at runtime, making key-triggered effects in sync
+    with the variable framerate set by using requestAnimationFrame()
+    */
+    const keys = this.keys || [];
+    this.onkeydown = (e) => (keys[e.code] = true);
+    this.onkeyup = (e) => (keys[e.code] = false);
+
+    const bulletSpeed = 10;
+    const bullets = [];
+    let bubbles = [];
+
+    let uneven = true;
+    let playing = true;
+
+    let bubblesUsed = 0;
+    let score = 0;
+    //  #endregion
+
+    //  #region global functions
+    window.onload = function () {
+        create(); //  element object creation trough recursion
+        sketch(); //  offscreen 'sketching' of static elements
+        render(); //  onscreen render by requestAnimationFrame
+    };
+
+    function create() {
+        createBubbles();
+
+        function createBubbles() {
+            let x = 25;
+            let y = 25;
+            let bubblesPerRow = 16;
+            for (let i = 0; i < 1; i++) {
+                for (let j = 0, l = bubblesPerRow; j < l; j++) {
+                    bubbles.push({ x, y, color: randomColor(), checked: false });
+                    x += 50;
+                }
+                // switch between even/uneven amount of bubblesPerRow
+                uneven ? (bubblesPerRow = 17) : (bubblesPerRow = 16);
+                uneven ? (x = 0) : (x = 25);
+                uneven ? (uneven = false) : (uneven = true);
+                y += 45;
+            }
+        }
+    }
+
+    function sketch() {
+        rotatableCtx.clearRect(0, 0, rotatable.width, rotatable.height);
+        offscreenCtx.clearRect(0, 0, offscreen.width, offscreen.height);
+
+        sketchPlayer();
+        sketchBullet();
+        sketchBubbles();
+
+        function sketchPlayer() {
+            rotatableCtx.beginPath();
+            rotatableCtx.moveTo(20, 0);
+            rotatableCtx.lineTo(30, 20);
+            rotatableCtx.arcTo(20, 10, 10, 20, 25);
+            rotatableCtx.lineTo(10, 20);
+            rotatableCtx.closePath();
+
+            rotatableCtx.fillStyle = "black";
+            rotatableCtx.fill();
+        }
+
+        function sketchBullet() {
+            if (bullets.length) {
+                offscreenCtx.beginPath();
+                offscreenCtx.arc(
+                    bullets[0].x,
+                    bullets[0].y,
+                    bullets[0].r,
+                    0,
+                    Math.PI * 2
+                );
+                offscreenCtx.closePath();
+
+                offscreenCtx.fillStyle = bullets[0].color;
+                offscreenCtx.fill();
+                offscreenCtx.stroke();
+            }
+        }
+
+        function sketchBubbles() {
+            for (let i = 0, l = bubbles.length; i < l; i++) {
+                const b = bubbles[i];
+                offscreenCtx.beginPath();
+                offscreenCtx.arc(b.x, b.y, 25, 0, Math.PI * 2);
+                offscreenCtx.closePath();
+
+                offscreenCtx.fillStyle = b.color;
+                offscreenCtx.fill();
+                offscreenCtx.stroke();
+            }
+        }
+
+        offscreenSketch = offscreenCtx.getImageData(
+            0,
+            0,
+            offscreen.width,
+            offscreen.height
+        );
+    }
+
+    function render() {
+        if (playing) {
+            requestAnimationFrame(render);
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            //  put the offscreen canvas image data
+            ctx.putImageData(offscreenSketch, 0, 0);
+
+            loadAndShoot();
+            renderScore();
+            checkDefeat();
+            keyHandler();
+            drawAimIndicator(); // Add this line to draw the aim indicator
+
+        } else {
+            // draw one last time to show defeat
+            sketch();
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.putImageData(offscreenSketch, 0, 0);
+
+            alert("Game over!\nYou scored " + score + " points.");
+        }
+    }
+
+    function loadAndShoot() {
+        if (!bullets.length) {
+            let bullet = {
+                x: 400,
+                y: 600,
+                color: randomColor(),
+                checked: false,
+                live: false,
+                direction: player.angle
+            };
+            bullets.push(bullet);
+        } else {
+            let b = bullets[0];
+
+            // draw bullet
+            ctx.beginPath();
+            ctx.arc(b.x, b.y, 25, 0, Math.PI * 2);
+            ctx.closePath();
+
+            ctx.fillStyle = b.color;
+            ctx.fill();
+            ctx.stroke();
+
+            if (b.live) {
+                // dynamic position and collision detection for live bullets
+                b.x += bulletSpeed * Math.sin((b.direction * Math.PI) / 180);
+                b.y -= bulletSpeed * Math.cos((b.direction * Math.PI) / 180);
+
+                // detect border collision
+                if (b.y < 0 || b.x < 0 || b.x > 800) bullets.pop();
+
+                // detect bubble collision
+                let collision = false;
+                let matches = 0;
+
+                bubbleCompare(b);
+
+                function bubbleCompare(source) {
+                    for (let i = bubbles.length - 1; i >= 0; i--) {
+                        // bottom-top
+                        const bubble = bubbles[i];
+
+                        let dx = source.x - bubble.x;
+                        let dy = source.y - bubble.y;
+
+                        // distance between source and bubble center
+                        let distance = Math.sqrt(dx * dx + dy * dy);
+
+                        if (distance <= 52) {
+                            // radius * 2 + offset
+
+                            collision = true;
+
+                            if (source.color === bubble.color && !bubble.checked) {
+                                matches++;
+                                bubble.checked = true; // prevent an endless loop
+                                bubbleCompare(bubble);
+                            }
+                        }
+                    }
+                }
+
+                if (collision) {
+                    if (matches <= 1) {
+                        bubbles.forEach((bubble) => (bubble.checked = false));
+
+                        bubbles.push(b); // push the bullet to bubbles
+                        sketch(); // redraw bubbles with former bullet
+
+                        bullets.pop();
+                    } else {
+                        score += matches;
+                        bubbles = bubbles.filter((bubble) => !bubble.checked);
+                        bullets.pop();
+                        sketch();
+                    }
+
+                    bubblesUsed === 5 ? moveBubbles() : bubblesUsed++;
+                }
+            }
+        }
+    }
+
+    function randomColor() {
+        let colors = [
+            "#FF6663",
+            "#FDFD97",
+            "#9EC1CF",
+            "#FEB144",
+            "#9EE09E",
+            "#CC99C9"
+        ];
+        return colors[~~(Math.random() * colors.length)];
+    }
+
+    function moveBubbles() {
+        bubbles.forEach((bubble) => (bubble.y += 45));
+        uneven ? (uneven = false) : (uneven = true);
+
+        let x = 0;
+        let y = 25;
+        let amount = 0;
+
+        uneven ? (amount = 17) : (amount = 16);
+        uneven ? (x = 0) : (x = 25);
+
+        for (let j = 0, l = amount; j < l; j++) {
+            bubbles.unshift({ x, y, color: randomColor(), checked: false });
+            x += 50;
+        }
+
+        sketch();
+        bubblesUsed = 0;
+    }
+
+    function renderScore() {
+        ctx.beginPath();
+        ctx.font = "5rem Segoe UI light";
+        ctx.fillStyle = "grey";
+        ctx.fillText(score, 20, 580);
+        ctx.closePath();
+    }
+
+    function checkDefeat() {
+        for (let i = 0; i < bubbles.length; i++) {
+            const b = bubbles[i];
+            if (b.y + 25 >= 600) {
+                playing = false;
+            }
+        }
+    }
+
+    function keyHandler() {
+        if (keys.ArrowLeft && player.angle > -85) {
+            player.angle--;
+            player.rotate();
+        }
+        if (keys.ArrowRight && player.angle < 85) {
+            player.angle++;
+            player.rotate();
+        }
+        if (keys.Space && bullets.length && !bullets[0].live) {
+            // Calculate the shooting direction based on the player's angle
+            const shootingAngle = player.angle;
+
+            // Set the bullet's direction to the shooting angle
+            bullets[0].direction = shootingAngle;
+
+            // Mark the bullet as live to initiate shooting
+            bullets[0].live = true;
+        }
+    }
+    function drawAimIndicator() {
+        const aimStartX = canvas.width / 2;
+        const aimStartY = canvas.height;
+
+        const aimEndX = aimStartX + Math.sin((player.angle * Math.PI) / 180) * 100;
+        const aimEndY = aimStartY - Math.cos((player.angle * Math.PI) / 180) * 100;
+
+        ctx.beginPath();
+        ctx.moveTo(aimStartX, aimStartY);
+        ctx.lineTo(aimEndX, aimEndY);
+        ctx.strokeStyle = "red"; // Change the color of the aim indicator
+        ctx.lineWidth = 2; // Adjust the line width as needed
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+    //  #endregion
+</script>
