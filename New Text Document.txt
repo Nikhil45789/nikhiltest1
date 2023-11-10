@@ -1,0 +1,1 @@
+[currency_bcc type="auto" w="0" h="0" c="9b783c" fc="0a0a0a" a="1" f="SAR" t="INR" g="on" sh="on" b="on" fl="on" p="c" cs="USD,EUR,INR" s="left" mf="1" df="2" d="1" su="off" lang="en-US"]
