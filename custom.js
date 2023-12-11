@@ -289,3 +289,16 @@ $(".footer-chatbot .form").scrollTop(
     jQuery(".footer-chatbot .user-inbox:last").height() -
     50
 );
+jQuery(".slider").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: false,
+  // asNavFor: ".slider-nav",
+});
+
+jQuery(".slider-nav").slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  asNavFor: ".slider",
+  focusOnSelect: true,
+});
