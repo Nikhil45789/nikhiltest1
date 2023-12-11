@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.60.2" platform="windows">
+	<Servers>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>abacon</User>
+			<Pass encoding="base64">VllUQntIK3dldTFx</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>abacon.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>albertpalais@vjbtestwebsites.com</User>
+			<Pass encoding="base64">NnZ5fTRHJl1wSEV3</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>albertpalais.vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>atpointgroup</User>
+			<Pass encoding="base64">MVFlY2p6MEJLdil3</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>atpointgroup.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>ftp.bcseeds.com</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>newbeta@bcseeds.com</User>
+			<Pass encoding="base64">Iz9sYnldUC5hVUhi</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>bcseeds.com (New beta)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>belgianchoccafe@vjbtestwebsites.com</User>
+			<Pass encoding="base64">eFkjfk5yMEB4PWoy</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>belgianchoccafe.vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>spengineering.co.in</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>smart@spengineering.co.in</User>
+			<Pass encoding="base64">Ky12ZGJYeiMoO01U</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>beta.spengineering.co.in (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>americanedventures.com</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@americanedventures.com</User>
+			<Pass encoding="base64">NGNreDVkYlBkQEt9</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>beta@americanedventures.com (B)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>207.7.86.86</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@prosperityrestoration.com</User>
+			<Pass encoding="base64">R181OX1mLjJILFd4</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>beta@prosperityrestoration.com T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>bigbangbox</User>
+			<Pass encoding="base64">dyRfc1oucD9zcixK</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>bigbangbox.yoursmarthost.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>blackswansgreens</User>
+			<Pass encoding="base64">QlNSbjZudzZvQkYh</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>blackswansgreenshoots.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>bluebonnet</User>
+			<Pass encoding="base64">OFpVOCVZdUIzKjA0</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>bluebonnet.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>185.53.58.35</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@bodyteq.co.uk</User>
+			<Pass encoding="base64">RykuazhzJkwkYVpG</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>bodyteq.co.uk (beta)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>boostmygrade</User>
+			<Pass encoding="base64">Mnc7SSp2fTJeP3VX</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>boostmygrade T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>brookeshousefoun</User>
+			<Pass encoding="base64">VSlhJiRPJFJxbig5</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>brookeshousefoundation.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>completelycompli</User>
+			<Pass encoding="base64">I2FtKywyPVVDaV9D</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>completelycompliant.webmasterindia.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>207.7.86.86</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@beta.coraltreeeducation.org</User>
+			<Pass encoding="base64">NjlIMWt2aHZqS0FG</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>coraltreeeducation.org (beta)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>ddstechpro</User>
+			<Pass encoding="base64">a11uOXJSWFA5LG9u</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>ddstechpro.webmasterindia.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>drashishsachdeva.com</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@beta.drashishsachdeva.com</User>
+			<Pass encoding="base64">cXU1c01OX2dJXiZ1</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>drashishsachdeva.com (beta)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>ekorp@vjbtestwebsites.com</User>
+			<Pass encoding="base64">ZnY5cngmME1OS1k0</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>ekorp.vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>enprecoveries@vjbtestwebsites.com</User>
+			<Pass encoding="base64">ZUJeMkQ0KlYlYm9h</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>enprecoveries@vjbtestwebsites.com T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>f4hcleanbee</User>
+			<Pass encoding="base64">V2Zyel5he1RFZD9N</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>F4HCleanbee.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>207.7.81.126</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@fastestinspection.com</User>
+			<Pass encoding="base64">I1hkPTdvNHZCX2sk</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>fastestinspection.com (beta)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>fsitksa</User>
+			<Pass encoding="base64">ZVQ5Ri1xQG8qI21K</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>fsitksa.yoursmarthost.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>furnitureeleganc</User>
+			<Pass encoding="base64">TSVPdWcjdXFEU1J6</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>furnitureeleganc.webmasterindia.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>greenstone@vjbtestwebsites.com</User>
+			<Pass encoding="base64">NVYjRHAlJlpwfi1k</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>greenstone.vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>guardrite@vjbtestwebsites.com</User>
+			<Pass encoding="base64">R0lkLCh1T0dyUnlU</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>guardrite@vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>as1.onlineinvent.au</Host>
+			<Port>22</Port>
+			<Protocol>1</Protocol>
+			<Type>0</Type>
+			<User>smartaccessacc23</User>
+			<Pass encoding="base64">NDk5Xl45OW1lODVqa3plcQ==</Pass>
+			<Logontype>1</Logontype>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>haydn.onlineinvent.com.au</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>intrinsicsports@vjbtestwebsites.com</User>
+			<Pass encoding="base64">N3pReyh1YWcyLWll</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>intrinsicsports@vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>iuventusmedcente</User>
+			<Pass encoding="base64">QiZ6M3E1dUpZa3RN</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>iuventusmedcenter.smart T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>jervisbayrentals@vjbtestwebsites.com</User>
+			<Pass encoding="base64">Mn5vV2UtZCQzRzE/</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>jervisbayrentals@vjbtestwebsites.com T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>leesprinklerdrai</User>
+			<Pass encoding="base64">RTdTa1tfeyZGXiVk</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>leesprinklerdrainage.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>makarabuilders</User>
+			<Pass encoding="base64">XShCZ1lSLTI2dFs1</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>makarabuilders.smart (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>as1.onlineinvent.au</Host>
+			<Port>22</Port>
+			<Protocol>1</Protocol>
+			<Type>0</Type>
+			<User>smartaccessacc23</User>
+			<Pass encoding="base64">NDk5Xl45OW1lODVqa3plcQ==</Pass>
+			<Logontype>1</Logontype>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>mgc.onlineinvent.com.au (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>mgconlineinvent</User>
+			<Pass encoding="base64">QWY9I0hFd1hzUyVU</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>mgconlineinvent.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>midtownbonita</User>
+			<Pass encoding="base64">I2tVeTN+LW4sW0Vw</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>midtownbonita.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>moneyball</User>
+			<Pass encoding="base64">MU17UGIwR1EpcD9V</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>Moneyball.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>mukuljamsons</User>
+			<Pass encoding="base64">UV9rWG8/JFFRVHVr</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>mukuljamsons.yoursmarthost.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>naturalsmilesden</User>
+			<Pass encoding="base64">bEQ2WEEwcFI5WDRH</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>naturalsmilesdental.smart (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>njbuilt@vjbtestwebsites.com</User>
+			<Pass encoding="base64">S3JUZFphb0NSakZ4</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>njbuilt@vjbtestwebsites.com T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>nmexpungement</User>
+			<Pass encoding="base64">eFl5Km0xLXMlZnpG</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>nmexpungement.webmasterindia.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>payietz</User>
+			<Pass encoding="base64">JmdLdzliaVctbkt4</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>payietz.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>perthbullion</User>
+			<Pass encoding="base64">SkMhWWokMFN1XiRU</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>perthbullion.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>quantumrevenuecy</User>
+			<Pass encoding="base64">M0ZSbnNuU1k3cV9a</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>quantumrevenuecycle.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>quickseer</User>
+			<Pass encoding="base64">ViVmO3pSeWIlYX53</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>quickseer.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>resolveops</User>
+			<Pass encoding="base64">UFNKUDQwJEpOW2Rt</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>resolveops.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>riseupandwalkthe</User>
+			<Pass encoding="base64">SmJ+RllqWDcyKSpj</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>Riseupandwalktherapy.com T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>rubikodewebmaste</User>
+			<Pass encoding="base64">QT9DLFNqZWhIQkVq</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>rubikode.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>sevenpoints</User>
+			<Pass encoding="base64">Zl1menY9IUo9XSFu</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>sevenpoints.smart (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>170.249.218.58</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>admin6@singapore.smartinfosys.net</User>
+			<Pass encoding="base64">d3BRcXJtMU5tbSN6</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>singapore.smartinfosys.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>185.53.58.35</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@sinspeed.co.uk</User>
+			<Pass encoding="base64">bT9TdG5aJmFpNFYz</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>sinspeed.co.uk (b)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>sportypolly</User>
+			<Pass encoding="base64">eTFRO3NWWTdEJWV1</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>Sportypoll.yoursmarthost.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>101.0.104.50</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>beta@stbasils.org.au</User>
+			<Pass encoding="base64">RGpYSFJ3ZG8mb2VD</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>stbasils.org.au B</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>strategicimmigra</User>
+			<Pass encoding="base64">JSVadj15c1dIMSRL</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>strategicimmigration.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>swiftbox</User>
+			<Pass encoding="base64">Umxidk1HPUg0Y2Nh</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>swiftbox.yoursmarthost.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>sylmarhomes</User>
+			<Pass encoding="base64">VT04Z3p9fjVTaHMm</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>sylmarhomes.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>tantolabels</User>
+			<Pass encoding="base64">Y0lVW21UTjtwRFkw</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>tantolabels.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>thehealthreflex</User>
+			<Pass encoding="base64">QmZFTjF4Wyo5LENk</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>thehealthreflex.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>thequantum</User>
+			<Pass encoding="base64">M1ptNmMyeXt6cDZz</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>thequantum.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>townofwashburn</User>
+			<Pass encoding="base64">USNhJjtOPyokMEsl</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>townofwashburn.yoursmarthost.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>108.160.155.129</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>trumedsolution</User>
+			<Pass encoding="base64">OFFpSlZrSXZLfjZk</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>trumedsolution.smart (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>westpointformwork@vjbtestwebsites.com</User>
+			<Pass encoding="base64">NmU2W0t0NWdJWyFB</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>westpointformwork@vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>194.5.156.208</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>u200850948.beta</User>
+			<Pass encoding="base64">biFEWEF4a2szPWpo</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>www.sjis.org.in(beta)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+	</Servers>
+</FileZilla3>
