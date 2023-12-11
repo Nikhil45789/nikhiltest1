@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery with Popup</title>
+    <!-- Include Magnific Popup CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <style>
+        /* Optional: Add some basic styling */
+        .gallery img {
+            max-width: 100px;
+            height: auto;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Gallery HTML -->
+<div class="gallery">
+    <a href="https://via.placeholder.com/600x400" class="image-link">
+        <img src="https://via.placeholder.com/150x100" alt="Image 1">
+    </a>
+    <a href="https://via.placeholder.com/700x500" class="image-link">
+        <img src="https://via.placeholder.com/150x100" alt="Image 2">
+    </a>
+    <!-- Add more image links as needed -->
+</div>
+
+<!-- Include jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Include Magnific Popup JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+    // Initialize Magnific Popup
+    $(document).ready(function() {
+        $('.gallery').magnificPopup({
+            delegate: 'a.image-link',
+            type: 'image',
+            gallery:{
+                enabled:true
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

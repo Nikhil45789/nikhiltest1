@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Owl Carousel Image Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <style>
+        /* Add your custom CSS styles here */
+        .owl-carousel {
+            width: 80%;
+            /* Adjust the width as needed */
+            margin: 0 auto;
+        }
+
+        .owl-carousel .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .thumbnail-slider .thumb-item {
+            cursor: pointer;
+        }
+
+        /* Add any additional styles for thumbnails or customizations */
+    </style>
+</head>
+
+<body>
+
+    <div class="owl-carousel main-slider">
+        <div class="item"><img src="https://via.placeholder.com/600x400/FF5733/000000" alt="Image 1"></div>
+        <div class="item"><img src="https://via.placeholder.com/600x400/33FF57/000000" alt="Image 2"></div>
+        <!-- Add more items as needed -->
+    </div>
+
+    <div class="owl-carousel thumbnail-slider">
+        <div class="thumb-item"><img src="https://via.placeholder.com/100x70/FF5733/000000" alt="Thumbnail 1"></div>
+        <div class="thumb-item"><img src="https://via.placeholder.com/100x70/33FF57/000000" alt="Thumbnail 2"></div>
+        <!-- Add thumbnails for each corresponding main image -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var mainSlider = $('.main-slider');
+            var thumbnailSlider = $('.thumbnail-slider');
+    
+            mainSlider.owlCarousel({
+                items: 1,
+                nav: true,
+                dots: false,
+                // Add other settings as needed
+            });
+    
+            thumbnailSlider.owlCarousel({
+                items: 3,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: { items: 3 },
+                    768: { items: 5 },
+                    1200: { items: 6 }
+                    // Define responsive settings as needed
+                }
+            });
+    
+            thumbnailSlider.on('click', '.thumb-item', function() {
+                var index = $(this).index();
+                mainSlider.trigger('to.owl.carousel', index);
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
