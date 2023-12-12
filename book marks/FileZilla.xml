@@ -17,6 +17,21 @@
 			<DirectoryComparison>0</DirectoryComparison>
 		</Server>
 		<Server>
+			<Host>67.222.10.78</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>ahwadiaboat</User>
+			<Pass encoding="base64">cXlVd2VQSHJ6TW4j</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>ahwadiaboat.yoursmarthost.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
 			<Host>67.222.6.175</Host>
 			<Port>21</Port>
 			<Protocol>6</Protocol>
@@ -43,6 +58,21 @@
 			<EncodingType>Auto</EncodingType>
 			<BypassProxy>0</BypassProxy>
 			<Name>atpointgroup.webmasterindia.net (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>ayardental@vjbtestwebsites.com</User>
+			<Pass encoding="base64">VXAmJmJjUEg/cSZw</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>ayardental@vjbtestwebsites.com T</Name>
 			<SyncBrowsing>0</SyncBrowsing>
 			<DirectoryComparison>0</DirectoryComparison>
 		</Server>
@@ -358,6 +388,21 @@
 			<EncodingType>Auto</EncodingType>
 			<BypassProxy>0</BypassProxy>
 			<Name>furnitureeleganc.webmasterindia.net T</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>gpac@vjbtestwebsites.com</User>
+			<Pass encoding="base64">OERBTT9VNURldE5D</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>gpac.vjbtestwebsites.com (T)</Name>
 			<SyncBrowsing>0</SyncBrowsing>
 			<DirectoryComparison>0</DirectoryComparison>
 		</Server>
@@ -911,6 +956,21 @@
 			<EncodingType>Auto</EncodingType>
 			<BypassProxy>0</BypassProxy>
 			<Name>westpointformwork@vjbtestwebsites.com (T)</Name>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+		<Server>
+			<Host>67.222.6.175</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>worldoptions@vjbtestwebsites.com</User>
+			<Pass encoding="base64">ZGIlcyxQMVB1Nnkj</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>worldoptions@vjbtestwebsites.com T</Name>
 			<SyncBrowsing>0</SyncBrowsing>
 			<DirectoryComparison>0</DirectoryComparison>
 		</Server>
